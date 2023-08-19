@@ -447,10 +447,10 @@ export function ImagePreviewer(props: {
 
           <div>
             <div className={styles["main-title"]}>
-              {websiteConfigStore.title || "AI Chat"}
+              {websiteConfigStore.title || "科创GPT"}
             </div>
             <div className={styles["sub-title"]}>
-              {websiteConfigStore.subTitle || "github.com/Nanjiren01/AIChatWeb"}
+              {websiteConfigStore.subTitle || "https://www.qizhidao.com/"}
             </div>
             <div className={styles["icons"]}>
               <ExportAvatar avatar={config.avatar} />

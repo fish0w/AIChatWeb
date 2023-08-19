@@ -176,19 +176,18 @@ export function SideBar(props: {
         shouldNarrow && styles["narrow-sidebar"]
       }`}
     >
-      <div className={styles["sidebar-header"]} data-tauri-drag-region>
+      <div className={styles["sidebar-header"]} daa-tauri-drag-region>
         <div
           className={styles["sidebar-title"]}
           dangerouslySetInnerHTML={{
-            __html: websiteConfigStore.mainTitle || "AI Chat",
+            __html: websiteConfigStore.mainTitle || "科创GPT",
           }}
           data-tauri-drag-region
         ></div>
         <div
           className={styles["sidebar-sub-title"]}
           dangerouslySetInnerHTML={{
-            __html:
-              websiteConfigStore.subTitle || "Build your own AI assistant.",
+            __html: websiteConfigStore.subTitle || "科创AI助手-企知道旗下产品",
           }}
         ></div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
